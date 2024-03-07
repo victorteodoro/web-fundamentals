@@ -1,0 +1,70 @@
+<html lang="pt-br">
+
+<head>
+    <title>Formulário de contato</title>
+    <link rel="icon"
+        href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffiles.softicons.com%2Fdownload%2Ftoolbar-icons%2F16x16-free-toolbar-icons-by-aha-soft%2Fpng%2F16%2Fdocument.png&f=1&nofb=1&ipt=446434844e8e405c9785118c1bab3ecf43acbbdd8fe6020f900d6739d7c504d9&ipo=images"
+        type="image/png">
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <header>
+        <h1>Fale conosco</h1>
+    </header>
+
+    <nav>
+        <div><a href="./internet-basics.html">Protocolo IP</a></div>
+        <div><a href="./bgp.html">Protocolo BGP</a></div>
+    </nav>
+
+    <section name="contact">
+        <hr />
+        <form action="#">
+            <table border="1px">
+                <tbody>
+                    <tr>
+                        <td>Nome:</td>
+                        <td><input type="text" maxlength="20" required autofocus></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input type="email" required></td>
+                    </tr>
+                    <tr>
+                        <td>Senha:</td>
+                        <td><input type="password" required></td>
+                    </tr>
+                    <tr>
+                        <td>CPF:</td>
+                        <td>
+                            <input id="cpf1" type="text" pattern="\d{3}\.d{3}\.d{3}-\d{2}" placeholder="___.___.___-__">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="radio" name="gender" value="masculino">
+                            <label>M</label>
+                            <input type="radio" name="gender" value="feminino">
+                            <label>F</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" value="Enviar">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </section>
+
+    <footer>
+        <hr />
+        <p><strong>Próximo vídeo:</strong> <a href="./bgp.html">Gateway Protocol</a></p>
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.stickpng.com%2Fimages%2F62207cf7944f5cd67921e29e.png&f=1&nofb=1&ipt=410b749c752ee55317af0463e3cd9d599cfdd550da7a5c3f506542ff8fa7fcd4&ipo=images"
+            alt="Símbolo da internet" height="100px" />
+    </footer>
+</body>
+
+</html>
