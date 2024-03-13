@@ -1,0 +1,33 @@
+body {
+    background-color: bisque;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav {
+    background-color: rgb(255, 219, 176);
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+img {
+    height: 30px;
+}
+
+header,
+nav,
+table {
+    text-align: center;
+}
+
+tr,
+th,
+td {
+    border: none;
+}
+
+table {
+    width: auto;
+    border-style: dashed;
+    border-color: black;
+}
