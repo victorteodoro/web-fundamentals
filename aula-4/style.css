@@ -1,0 +1,44 @@
+body {
+    background: url(https://getwallpapers.com/wallpaper/full/6/e/b/90114.jpg);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav {
+    background-color: rgb(255, 219, 176);
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+img {
+    height: 30px;
+}
+
+header,
+nav,
+table {
+    text-align: center;
+}
+
+#video-content {
+    position: relative;
+    left: 45%;
+}
+
+tr,
+th,
+td {
+    border: none;
+}
+
+form {
+    position: relative;
+    left: 45%;
+}
+
+table {
+    width: auto;
+    margin: 10px;
+    border-style: dashed;
+    border-color: black;
+}
